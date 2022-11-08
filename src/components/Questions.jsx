@@ -8,7 +8,7 @@ const Questions = ({ QUESTIONS, index, setIndex, setCorrect, correct }) => {
       <div className="text-center">
         <h2 className="text-center">{QUESTIONS[index].question}</h2>
       </div>
-      <div className="questions row justify-content-around mt-5">
+      <div className="row justify-content-around mt-5">
         {QUESTIONS[index].answers.map((answer, key) => {
           return (
             <Answers
